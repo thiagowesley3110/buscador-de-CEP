@@ -52,7 +52,7 @@ function App() {
 
       <main className='main'>
         <h2 className='cep'>
-          CEP:{cep.cep}
+          {cep.cep}
         </h2>
         <span>{cep.logradouro}</span>
         <span>{cep.complemento}</span>
